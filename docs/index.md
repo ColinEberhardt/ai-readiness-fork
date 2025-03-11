@@ -41,7 +41,7 @@ The following framework has been developed by [FINOS (Fintech Open Source Founda
                     </div>
                     <h3 class="card-title h5">{{ risk.title }}</h3>
                     <p class="card-text text-muted">{{ risk.content | strip_html | strip_newlines | split: " " | slice: 0, 10 | join: " " }} ...</p>
-                    <a href="{{ risk.id }}.html" class="btn btn-outline-primary btn-sm stretched-link">Read more</a>
+                    <a href="./{{ risk.id }}.html" class="btn btn-outline-primary btn-sm stretched-link">Read more</a>
                 </div>
             </div>
         </div>
